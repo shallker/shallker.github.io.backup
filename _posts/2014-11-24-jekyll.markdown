@@ -1,0 +1,68 @@
+---
+layout: post
+title: "Jekyll"
+date: 2014-11-24 22:14:29
+categories: jekyll
+---
+
+# 什么是Jekyll
+Jekyll是一款由Ruby语言编写的开源软件，使用它可以很简单、快速的生成一个静态网站，适合于个人博客或一个项目站点。  
+Jekyll作者是[Github][github]的联合创始人[Tom Preston-Werner](http://tom.preston-werner.com/)。  
+
+
+# 安装Jekyll
+- 安装最新版本的Jekyll  
+`$ gem install jekyll`
+
+- 安装指定版本的Jekyll  
+`$ gem install jekyll -v '2.0.0.alpha.1'`
+
+
+# 使用Jekyll
+- 查看Jekyll版本  
+`$ jekyll -v`
+
+
+# Jekyll支持的模板语言
+- [Markdown](http://daringfireball.net/projects/markdown/)  
+- [textfile](http://redcloth.org/textile)  
+- [Liquid](https://github.com/Shopify/liquid/wiki)  
+
+
+# 使用Jekyll的好处
+- Host在Github上，不需要搭建自己的服务器，不需要维护服务器，不需要担心服务器遭受大的访问量
+- 不需要数据库Database
+- 使用Markdown或textile格式创建内容
+- 使用Git管理所有的事情
+- 编辑的时候只需要一个命令行终端
+
+
+# 使用Jekyll的坏处
+暂无。
+
+
+# 常见问题
+问题：在Mac上安装Jekyll提示以下错误  
+```
+ERROR:  Error installing jekyll:
+ERROR: Failed to build gem native extension.
+```
+
+解决：
+可能是Mac上的Ruby版本问题，尝试用RVM安装一个1.9.3版本的Ruby。
+
+
+# 参考资料
+- Jekyll Simple, blog-aware, static sites  
+[http://jekyllrb.com/](http://jekyllrb.com/)
+
+- Jekyll 简单的静态博客网站  
+[http://jekyllcn.com/](http://jekyllcn.com/)
+
+- Jekyll  
+[https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+
+- 用 Jekyll 和 Octopress 搭建博客，哪个更合适？  
+[http://www.zhihu.com/question/19996679](http://www.zhihu.com/question/19996679)
+
+[github]: http://github.com
