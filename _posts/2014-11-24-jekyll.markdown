@@ -4,10 +4,9 @@ title: "Jekyll"
 date: 2014-11-24 22:14:29
 categories: jekyll
 ---
-
 # 什么是Jekyll
 Jekyll是一款由Ruby语言编写的开源软件，使用它可以很简单、快速的生成一个静态网站，适合于个人博客或一个项目站点。  
-Jekyll作者是[Github][github]的联合创始人[Tom Preston-Werner](http://tom.preston-werner.com/)。  
+Jekyll作者是[Github](http://github.com)的联合创始人[Tom Preston-Werner](http://tom.preston-werner.com/)。  
 
 
 # 安装Jekyll
@@ -21,6 +20,9 @@ Jekyll作者是[Github][github]的联合创始人[Tom Preston-Werner](http://tom
 # 使用Jekyll
 - 查看Jekyll版本  
 `$ jekyll -v`
+
+- 在本地编译和预览Jekyll网站  
+在仓库根目录运行`$ jekyll serve`
 
 
 # Jekyll支持的模板语言
@@ -64,5 +66,6 @@ ERROR: Failed to build gem native extension.
 
 - 用 Jekyll 和 Octopress 搭建博客，哪个更合适？  
 [http://www.zhihu.com/question/19996679](http://www.zhihu.com/question/19996679)
+
 
 [github]: http://github.com
