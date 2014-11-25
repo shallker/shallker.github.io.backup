@@ -9,5 +9,5 @@ twitter_username: shallker
 github_username:  shallker
 
 # Build settings
-markdown: kramdown
+markdown: rdiscount
 permalink: /:year/:title:output_ext
