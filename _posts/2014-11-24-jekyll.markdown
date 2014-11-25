@@ -46,7 +46,7 @@ Jekyll作者是[Github](http://github.com)的联合创始人[Tom Preston-Werner]
 
 
 # 替换Jekyll默认的markdown编译引擎
-Jekyll默认的markdown编译引擎kramdown有很多问题，建议替换为rdiscount
+Jekyll默认的markdown编译引擎[kramdown](https://github.com/gettalong/kramdown)有很多问题，建议替换为[rdiscount](http://dafoster.net/projects/rdiscount/)
 
 1，安装rdiscount  
 `$ gem install rdiscount`
@@ -86,6 +86,6 @@ ERROR: Failed to build gem native extension.
 - 用 Jekyll 和 Octopress 搭建博客，哪个更合适？  
 [http://www.zhihu.com/question/19996679](http://www.zhihu.com/question/19996679)
 
+- 使用 Jekyll 在 Github 上写博客  
+[http://peiwen.lu/blogging-with-jekyll/](http://peiwen.lu/blogging-with-jekyll/)
 
-
-[github]: http://github.com
